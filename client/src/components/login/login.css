@@ -1,0 +1,90 @@
+.model1 {
+  background-color: transparent;
+  height: 520px;
+  width: 65%;
+  margin-left: 20%;
+  margin-top: 5%;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #00000037;
+
+}
+
+.Adds {
+  width: 55%;
+  height: 520px;
+
+  float: right;
+
+  background-image: linear-gradient(45deg, #1b603a57, #1b603a57),
+    url('https://img.freepik.com/free-photo/house-landscape-pool-relaxation-garden_1203-4900.jpg?w=2000');
+  background-size: cover;
+  object-fit: cover;
+  object-position: bottom;
+
+}
+
+.login-form {
+  width: 45%;
+  height: 520px;
+  background-color: white;
+  float: right;
+
+
+
+}
+
+.login-form-sub {
+  width: 70%;
+  margin: auto;
+  /* height: 40vmin;
+    pointer-events: none; */
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Cinzel', serif;
+
+}
+
+.addscontent1 {
+  text-align: center;
+  padding-top: 40%;
+  color: rgb(221, 218, 218);
+  font-family: 'Cinzel Decorative', cursive;
+  margin: 2rem;
+
+
+
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .login-form {
+    width: 100%;
+    font-size: 20px;
+
+
+  }
+
+  .Adds {
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+
+
+  }
+
+  .model1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+
+
+  }
+
+  .login-form-sub {
+    font-size: 20px;
+
+  }
+}

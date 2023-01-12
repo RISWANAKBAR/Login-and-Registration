@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=BhuTuka+Expanded+One&family=Caveat:wght@700&family=Cinzel&family=Cinzel+Decorative:wght@900&family=Cookie&family=Covered+By+Your+Grace&family=Handlee&family=Hind:wght@300&family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans:wght@700&family=Italiana&family=Josefin+Sans:ital,wght@0,300;1,300&family=Lato:wght@900&family=Mukta:wght@300&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;1,800&family=Roboto:ital,wght@0,100;1,900&family=Rubik+Distressed&family=Sacramento&family=Sono&family=Syne+Mono&family=Yeon+Sung&display=swap');
+
+.model2 {
+
+    height: 750px;
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 1%;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00000037;
+    background-color: whitesmoke;
+
+
+}
+
+.Adds1 {
+    width: 50%;
+    height: 750px;
+    background-color: white;
+    float: right;
+    background-image: url('https://img.freepik.com/free-vector/registration-form-template-with-flat-design_23-2147971971.jpg?w=740&t=st=1673516059~exp=1673516659~hmac=fd5f58107db9d84199d6b6f790d30ad010f3d33e716d8b9fdae78fcac04cab56');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.reg-form {
+    width: 50%;
+    height: 750px;
+    background-color: white;
+    float: right;
+
+
+
+}
+
+.reg-form-sub {
+    width: 70%;
+    margin: auto;
+    /* height: 40vmin;
+    pointer-events: none; */
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.addscontent {
+    text-align: center;
+    padding-top: 40%;
+    color: rgb(221, 218, 218);
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 2rem;
+
+
+
+
+}
+
+.img {
+    height: 100px;
+}
+
+@media screen and (max-width: 855px) {
+
+    .reg-form {
+        width: 100%;
+        font-size: 20px;
+
+
+
+    }
+
+    .Adds1 {
+        width: 100%;
+        background-size: cover;
+        height: 400px;
+
+
+    }
+
+    .model2 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: relative;
+
+    }
+
+    .reg-form-sub {
+        font-size: 20px;
+
+    }
+}
+
+.span {
+    color: #d55959;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+
+
+
+
+}
